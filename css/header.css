@@ -1,0 +1,38 @@
+body{
+	background-color: #f5f5f5;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+}
+.header{
+	padding-top: 26px;
+	background-color: inherit;
+	width: 960px;
+	box-sizing: border-box;
+}
+.logo{
+	float: left;
+}
+.search{
+	float: right;
+}
+.search>input{
+	background-color: #f3f3f3;
+	outline: none;
+	border: 1px solid #e7e7e7;
+	width: 158px;
+	height: 32px;
+	box-sizing: border-box;
+}
+.button{
+	display: inline-block;
+}
+.button>button{
+	width: 42px;
+	height: 32px;
+	background-color: #29c5e6;
+	border: none;
+	outline: none;
+}
